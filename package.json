@@ -7,8 +7,8 @@
     "start": "node app"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "node": "8.9.x",
+    "npm": "5.5.x"
   },
   "author": "Gustavo Barros",
   "license": "ISC",
