@@ -104,7 +104,9 @@ let users = require('./routes/users');
 app.use('/articles', articles);
 app.use('/users', users);
 
+var port = process.env.port || 3000;
+
 // Start Server
-app.listen(3000, function(){
+app.listen(port, function(){
   console.log('Server started on port 3000...');
 });
