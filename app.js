@@ -104,7 +104,7 @@ let users = require('./routes/users');
 app.use('/articles', articles);
 app.use('/users', users);
 
-var port = process.env.port || 3000;
+var port = process.env.port || 5000;
 
 // Start Server
 app.listen(port, function(){
