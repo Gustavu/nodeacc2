@@ -104,7 +104,7 @@ let users = require('./routes/users');
 app.use('/articles', articles);
 app.use('/users', users);
 
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 const host = '0.0.0.0';
 
 
